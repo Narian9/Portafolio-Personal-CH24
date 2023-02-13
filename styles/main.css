@@ -1,0 +1,67 @@
+body{
+    /* background-image: ; */
+    background-color:rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+    color:rgb(51, 2, 97)
+}
+
+/* .principal-container{
+
+} */
+div{
+    /* border: 3px solid black; */
+    width: 50%;
+
+}
+#contact{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;   
+}
+#photo{
+
+    width: 30vw;
+    border: 3px solid black;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+#info{
+    width: 55vw;
+    /* border: 3px solid rgba(146, 0, 119, 0.767); */
+}
+img{
+    width: 100%;
+    border-radius: 90% 40% 90% 40% ;
+    float:left
+}
+#links{
+    background-color: rgba(146, 70, 142, 0.986);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    cursor:pointer;
+    color: aliceblue;
+}
+a:link, a:visited, a:active{
+    color:aliceblue;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(51, 2, 97);
+    text-decoration:dotted;
+}
+a > span{
+    padding: 1%;
+}
+.icon{
+    width: 5vw;
+     
+    border-radius: 16px;
+
+}
+/* #hard-skills{
+
+} */
